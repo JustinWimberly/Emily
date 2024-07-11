@@ -8,13 +8,20 @@
 import SwiftUI
 
 @main
-struct EmilyApp: App {
+struct PeriodTrackingApp: App {
+    @AppStorage("hasCompletedOnboarding") var hasCompletedOnboarding: Bool = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if hasCompletedOnboarding {
+                DashboardView()
+            } else {
+                OnboardingView()
+            }
         }
     }
 }
+
 
 
 

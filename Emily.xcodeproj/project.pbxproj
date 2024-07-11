@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C725F8C52BEBFC0C00113402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C725F8C42BEBFC0C00113402 /* ContentView.swift */; };
+		C71F83452C18889A000EC0FC /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71F83442C18889A000EC0FC /* OnboardingView.swift */; };
 		C737AB492BE71810005062EF /* EmilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C737AB482BE71810005062EF /* EmilyApp.swift */; };
 		C737AB4D2BE71810005062EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737AB4C2BE71810005062EF /* Assets.xcassets */; };
 		C737AB502BE71810005062EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737AB4F2BE71810005062EF /* Preview Assets.xcassets */; };
-		C737AB612BE72E7D005062EF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C737AB602BE72E7D005062EF /* HealthKitManager.swift */; };
+		C7F5A5C52C3F592E004A5FBD /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5A5C42C3F592E004A5FBD /* DashboardView.swift */; };
+		C7F5A5C72C3F59BD004A5FBD /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5A5C62C3F59BD004A5FBD /* HealthKitManager.swift */; };
+		C7F5A5CA2C3F704D004A5FBD /* MulticolorGradient in Frameworks */ = {isa = PBXBuildFile; productRef = C7F5A5C92C3F704D004A5FBD /* MulticolorGradient */; };
+		C7F5A5CE2C3F70D1004A5FBD /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = C7F5A5CD2C3F70D1004A5FBD /* Algorithms */; };
+		C7F5A5D02C3F7462004A5FBD /* VersionNotSupportedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F5A5CF2C3F7462004A5FBD /* VersionNotSupportedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C725F8C42BEBFC0C00113402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C71F83442C18889A000EC0FC /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C737AB452BE71810005062EF /* Emily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C737AB482BE71810005062EF /* EmilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmilyApp.swift; sourceTree = "<group>"; };
 		C737AB4C2BE71810005062EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C737AB4F2BE71810005062EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C737AB5C2BE71A92005062EF /* Emily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Emily.entitlements; sourceTree = "<group>"; };
 		C737AB5D2BE71AAB005062EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		C737AB602BE72E7D005062EF /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C7F5A5C42C3F592E004A5FBD /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C7F5A5C62C3F59BD004A5FBD /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C7F5A5CF2C3F7462004A5FBD /* VersionNotSupportedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionNotSupportedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7F5A5CE2C3F70D1004A5FBD /* Algorithms in Frameworks */,
+				C7F5A5CA2C3F704D004A5FBD /* MulticolorGradient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,9 +67,11 @@
 				C737AB4C2BE71810005062EF /* Assets.xcassets */,
 				C737AB5D2BE71AAB005062EF /* Info.plist */,
 				C737AB5C2BE71A92005062EF /* Emily.entitlements */,
-				C725F8C42BEBFC0C00113402 /* ContentView.swift */,
+				C71F83442C18889A000EC0FC /* OnboardingView.swift */,
 				C737AB482BE71810005062EF /* EmilyApp.swift */,
-				C737AB602BE72E7D005062EF /* HealthKitManager.swift */,
+				C7F5A5C42C3F592E004A5FBD /* DashboardView.swift */,
+				C7F5A5C62C3F59BD004A5FBD /* HealthKitManager.swift */,
+				C7F5A5CF2C3F7462004A5FBD /* VersionNotSupportedView.swift */,
 			);
 			path = Emily;
 			sourceTree = "<group>";
@@ -90,6 +100,10 @@
 			dependencies = (
 			);
 			name = Emily;
+			packageProductDependencies = (
+				C7F5A5C92C3F704D004A5FBD /* MulticolorGradient */,
+				C7F5A5CD2C3F70D1004A5FBD /* Algorithms */,
+			);
 			productName = Emily;
 			productReference = C737AB452BE71810005062EF /* Emily.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +132,11 @@
 				Base,
 			);
 			mainGroup = C737AB3C2BE71810005062EF;
+			packageReferences = (
+				C7F5A5C82C3F704D004A5FBD /* XCRemoteSwiftPackageReference "SwiftUI-MulticolorGradient" */,
+				C7F5A5CB2C3F70B1004A5FBD /* XCRemoteSwiftPackageReference "swift-collections" */,
+				C7F5A5CC2C3F70D1004A5FBD /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = C737AB462BE71810005062EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -145,8 +164,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C737AB492BE71810005062EF /* EmilyApp.swift in Sources */,
-				C737AB612BE72E7D005062EF /* HealthKitManager.swift in Sources */,
-				C725F8C52BEBFC0C00113402 /* ContentView.swift in Sources */,
+				C7F5A5C72C3F59BD004A5FBD /* HealthKitManager.swift in Sources */,
+				C7F5A5D02C3F7462004A5FBD /* VersionNotSupportedView.swift in Sources */,
+				C7F5A5C52C3F592E004A5FBD /* DashboardView.swift in Sources */,
+				C71F83452C18889A000EC0FC /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +387,46 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7F5A5C82C3F704D004A5FBD /* XCRemoteSwiftPackageReference "SwiftUI-MulticolorGradient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ArthurGuibert/SwiftUI-MulticolorGradient.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C7F5A5CB2C3F70B1004A5FBD /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
+		C7F5A5CC2C3F70D1004A5FBD /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7F5A5C92C3F704D004A5FBD /* MulticolorGradient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F5A5C82C3F704D004A5FBD /* XCRemoteSwiftPackageReference "SwiftUI-MulticolorGradient" */;
+			productName = MulticolorGradient;
+		};
+		C7F5A5CD2C3F70D1004A5FBD /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7F5A5CC2C3F70D1004A5FBD /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C737AB3D2BE71810005062EF /* Project object */;
 }
