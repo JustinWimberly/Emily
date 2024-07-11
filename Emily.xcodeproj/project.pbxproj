@@ -11,7 +11,6 @@
 		C737AB492BE71810005062EF /* EmilyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C737AB482BE71810005062EF /* EmilyApp.swift */; };
 		C737AB4D2BE71810005062EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737AB4C2BE71810005062EF /* Assets.xcassets */; };
 		C737AB502BE71810005062EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C737AB4F2BE71810005062EF /* Preview Assets.xcassets */; };
-		C737AB572BE71820005062EF /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C737AB562BE71820005062EF /* Launch Screen.storyboard */; };
 		C737AB612BE72E7D005062EF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C737AB602BE72E7D005062EF /* HealthKitManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,7 +20,6 @@
 		C737AB482BE71810005062EF /* EmilyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmilyApp.swift; sourceTree = "<group>"; };
 		C737AB4C2BE71810005062EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C737AB4F2BE71810005062EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C737AB562BE71820005062EF /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C737AB5C2BE71A92005062EF /* Emily.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Emily.entitlements; sourceTree = "<group>"; };
 		C737AB5D2BE71AAB005062EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C737AB602BE72E7D005062EF /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
@@ -61,7 +59,6 @@
 				C737AB4C2BE71810005062EF /* Assets.xcassets */,
 				C737AB5D2BE71AAB005062EF /* Info.plist */,
 				C737AB5C2BE71A92005062EF /* Emily.entitlements */,
-				C737AB562BE71820005062EF /* Launch Screen.storyboard */,
 				C725F8C42BEBFC0C00113402 /* ContentView.swift */,
 				C737AB482BE71810005062EF /* EmilyApp.swift */,
 				C737AB602BE72E7D005062EF /* HealthKitManager.swift */,
@@ -135,7 +132,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C737AB572BE71820005062EF /* Launch Screen.storyboard in Resources */,
 				C737AB502BE71810005062EF /* Preview Assets.xcassets in Resources */,
 				C737AB4D2BE71810005062EF /* Assets.xcassets in Resources */,
 			);
